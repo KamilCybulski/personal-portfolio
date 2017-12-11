@@ -54,8 +54,7 @@ table {
   align-items: center;
   height: 50vw;
   min-height: 300px;
-  max-height: 480px;
-  background-color: #141122; }
+  max-height: 480px; }
   .header__title {
     text-align: center;
     font-size: calc(3rem + 1vw);
@@ -68,16 +67,14 @@ table {
   .header__subtitle {
     text-align: center;
     font-size: calc(1.5rem + 1vw);
-    color: #fff;
+    color: #00BCD4;
     text-transform: capitalize;
     font-weight: 200;
     letter-spacing: .15em; }
 
 .main {
   display: flex;
-  justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  justify-content: center; }
 
 .project {
   background: url("http://via.placeholder.com/300");
@@ -96,8 +93,55 @@ table {
     .grid {
       width: 70%; } }
 
+.overlay_green, .overlay_purple, .overlay_cyan, .overlay_pink, .overlay_blue, .overlay_orange {
+  width: 100%;
+  height: 100%; }
+  .overlay_green:hover, .overlay_purple:hover, .overlay_cyan:hover, .overlay_pink:hover, .overlay_blue:hover, .overlay_orange:hover {
+    opacity: 0; }
+
+.overlay_green {
+  background-color: rgba(30, 138, 26, 0.7); }
+
+.overlay_purple {
+  background-color: rgba(185, 13, 122, 0.7); }
+
+.overlay_cyan {
+  background-color: rgba(10, 223, 198, 0.7); }
+
+.overlay_pink {
+  background-color: rgba(235, 2, 33, 0.7); }
+
+.overlay_blue {
+  background-color: rgba(0, 43, 124, 0.7); }
+
+.overlay_orange {
+  background-color: rgba(240, 112, 8, 0.7); }
+
+.footer {
+  margin: 150px auto;
+  padding-top: 20px;
+  width: 80%;
+  min-width: 270px;
+  max-width: 900px;
+  border-top: 2px solid #BDBDBD;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 3em; }
+  .footer__link {
+    margin: 0 40px;
+    text-align: center;
+    color: #00BCD4;
+    text-transform: uppercase;
+    text-decoration: none; }
+    .footer__link:visited, .footer__link:hover, .footer__link:active {
+      text-decoration: none;
+      color: #00BCD4; }
+
 html {
   font-family: 'Khula', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  background-color: #051421; }
 
 /*# sourceMappingURL=style.css.map */
