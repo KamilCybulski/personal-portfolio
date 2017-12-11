@@ -1,5 +1,2 @@
 .sass-cache/
 *.css.map
-
-build/
-node_modules/
