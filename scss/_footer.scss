@@ -1,0 +1,27 @@
+.footer {
+  margin: 150px auto;
+  padding-top: 20px;
+  width: 80%;
+  min-width: 270px;
+  max-width: 900px;
+  border-top: 2px solid $divider-color;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  line-height: 3em;
+
+  &__link {
+    margin: 0 40px;
+    text-align: center;
+    color: $accent-color;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:visited, &:hover, &:active {
+      text-decoration: none;
+      color: $accent-color;
+    }
+  }
+}
+
