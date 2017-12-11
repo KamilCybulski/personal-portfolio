@@ -1,0 +1,32 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  min-height: 300px;
+  max-height: 480px;
+  background-color: #141122;
+
+  &__title {
+    text-align: center;
+    font-size: calc(3rem + 1vw);
+    color: $main-font-color;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .2em;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-size: calc(1.5rem + 1vw);
+    color: $main-font-color;
+    text-transform: capitalize;
+    font-weight: 200;
+    letter-spacing: .15em;
+  }
+}
