@@ -72,7 +72,6 @@
 
   &__description {
     padding: 0;
-    // text-align: justify;
     font-size: 0;
     visibility: hidden;
     opacity: 0;
@@ -99,6 +98,28 @@
       height: 0;
     }
   }
+
+  &1 {
+    background: url('https://i.imgur.com/9qgdqai.png') no-repeat top;
+    // background-size: cover;
+  }
+  &2 {
+    background: url('https://i.imgur.com/Rjwo48U.png') no-repeat top;
+    // background-size: cover;
+  }
+  &3 {
+    background: url('https://i.imgur.com/lAGxGUN.png') no-repeat top;
+    // background-size: cover;
+  }
+  &4 {
+    background: url('https://i.imgur.com/GMvw0Lf.png') no-repeat top;
+  }
+  &5 {
+    background: url('https://i.imgur.com/ktb3A2t.png') no-repeat top;
+  }
+  &6 {
+    background: url('https://i.imgur.com/DzUaFxS.png') no-repeat top;
+  }
 }
 
 .showcase {
@@ -114,3 +135,4 @@
     width: 70%
   }
 }
+

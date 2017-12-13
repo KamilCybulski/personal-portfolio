@@ -153,6 +153,18 @@ table {
     transition: height .7s; }
     .project__link_hidden {
       height: 0; }
+  .project1 {
+    background: url("https://i.imgur.com/9qgdqai.png") no-repeat top; }
+  .project2 {
+    background: url("https://i.imgur.com/Rjwo48U.png") no-repeat top; }
+  .project3 {
+    background: url("https://i.imgur.com/lAGxGUN.png") no-repeat top; }
+  .project4 {
+    background: url("https://i.imgur.com/GMvw0Lf.png") no-repeat top; }
+  .project5 {
+    background: url("https://i.imgur.com/ktb3A2t.png") no-repeat top; }
+  .project6 {
+    background: url("https://i.imgur.com/DzUaFxS.png") no-repeat top; }
 
 .showcase {
   width: 90%;
