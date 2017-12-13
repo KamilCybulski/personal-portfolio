@@ -47,10 +47,46 @@
   justify-content: flex-end;
 
   &__caption {
+    box-sizing: border-box;
     width: 100%;
-    height: 85px;
+    height: 45px;
     background-color: $shade;
     color: $main-font-color;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;;
+    align-items: center;
+    transition: height .7s;
+
+    &_visible {
+      height: 100%;
+    }
+  }
+
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__description {
+    padding: 0;
+    // text-align: justify;
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    line-height: 1.5em;
+    transition: height 1s .2s, opacity 1s .2s, padding 1s .2s, font-size 1s .2s;
+
+    &_visible {
+      height: auto;
+      visibility: visible;
+      padding: 30px;
+      font-size: 18px;
+      opacity: 1;
+    }
   }
 }
 
