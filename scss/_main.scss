@@ -88,6 +88,17 @@
       opacity: 1;
     }
   }
+
+  &__link {
+    text-decoration: inherit;
+    color: inherit;
+    height: 305px;
+    transition: height .7s;
+
+    &_hidden {
+      height: 0;
+    }
+  }
 }
 
 .showcase {
