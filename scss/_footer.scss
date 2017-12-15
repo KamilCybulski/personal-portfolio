@@ -14,13 +14,14 @@
   &__link {
     margin: 0 40px;
     text-align: center;
-    color: #000;
+    color: $main-font-color;
     text-transform: uppercase;
     text-decoration: none;
+    font-weight: 700;
 
     &:visited, &:hover, &:active {
       text-decoration: none;
-      color: #000;
+      color: $main-font-color;
     }
   }
 }

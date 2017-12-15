@@ -58,13 +58,14 @@ table {
     font-size: calc(3rem + 1vw);
     text-transform: uppercase;
     font-weight: 900;
+    color: #263238;
     letter-spacing: .2em;
     margin-bottom: 20px;
     line-height: 1.2em; }
   .header__subtitle {
     text-align: center;
     font-size: calc(1.5rem + 1vw);
-    color: #4dd0e1;
+    color: #0d27ac;
     text-transform: capitalize;
     font-weight: 200;
     letter-spacing: .15em; }
@@ -159,7 +160,7 @@ table {
     background: url("https://i.imgur.com/bRER9qw.png") center;
     background-size: cover; }
   .project5 {
-    background: url("https://i.imgur.com/Ixi4Bck.png") center;
+    background: url("https://i.imgur.com/kzahW9d.png") center;
     background-size: cover; }
   .project6 {
     background: url("https://i.imgur.com/8RwCLsY.png") center;
@@ -183,7 +184,7 @@ table {
   width: 80%;
   min-width: 270px;
   max-width: 900px;
-  border-top: 2px solid #4dd0e1;
+  border-top: 2px solid #0d27ac;
   font-size: 18px;
   display: flex;
   flex-flow: row wrap;
@@ -192,12 +193,13 @@ table {
   .footer__link {
     margin: 0 40px;
     text-align: center;
-    color: #000;
+    color: #263238;
     text-transform: uppercase;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: 700; }
     .footer__link:visited, .footer__link:hover, .footer__link:active {
       text-decoration: none;
-      color: #000; }
+      color: #263238; }
 
 html {
   font-family: 'Khula', sans-serif;
@@ -207,7 +209,7 @@ html {
   width: 80%;
   min-width: 270px;
   max-width: 900px;
-  border-top: 2px solid #4dd0e1;
+  border-top: 2px solid #0d27ac;
   margin: 200px 0; }
 
 /*# sourceMappingURL=style.css.map */
