@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="My stuff">
-  <meta name="author" content="kamyl">
+  <meta name="description" content="Kamil's personal portfolio">
+  <meta name="author" content="Kamil Cybulski">
 
   <link
     href="https://fonts.googleapis.com/css?family=Khula:300"
@@ -16,11 +16,11 @@
 
   <title>Kamil Cybulski</title>
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/Person">
   <header class="header">
     <div>
-      <h1 class="header__title">Kamil Cybulski</h1>
-      <h2 class="header__subtitle">Web developer</h2>
+      <h1 class="header__title" itemprop="name">Kamil Cybulski</h1>
+      <h2 class="header__subtitle" itemprop="jobTitle">Web developer</h2>
     </div>
     <div class="divider"></div>
   </header>
@@ -74,12 +74,14 @@
   </main>
   <footer class="footer">
     <a
+      itemprop="url"
       href="https://github.com/KamilCybulski"
       class="footer__link"
     >
-      see my stuff on github
+      see my code on github
     </a>
     <a
+      itemprop="email"
       href="mailto:kamillcybulski@gmail.com"
       target="_top"
       class="footer__link"
